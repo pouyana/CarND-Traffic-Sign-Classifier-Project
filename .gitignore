@@ -1,3 +1,7 @@
+checkpoint
+sample
+test.ipynb
+lenet*
 data
 .ipynb_checkpoints
 *.h5
