@@ -153,7 +153,6 @@ The model was able to guess the 4 out of 6 correctly which given the accuracy of
 ![alt text][image5]
 ![alt text][image6]
 ![alt text][image8]
-![alt text][image9]
 
 As It can be seen in the images above, the softmax prediction are all correct wit
  100%. In the next two image which were predicted wrongly we will go through more details.
@@ -161,6 +160,10 @@ As It can be seen in the images above, the softmax prediction are all correct wi
 ![alt text][image7]
 
 It can be seen that the prediction was 58% for 60Km/h and only 42% for 50Km/h which was the correct guess.
+
+![alt text][image9]
+
+For this the highest probability was for the correct image (46%), but it was no 100%. The classes got 7%, 6%, 5% and ... accordingly.
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
